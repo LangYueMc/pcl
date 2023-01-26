@@ -2,7 +2,7 @@
 
 <local:MyCard Margin="0,0,0,15">
     <StackPanel Margin="0,25,0,0" >
-        <Image Height="62" Source="http://file.l2w.site/mc/mc.png" />
+        <Image Height="62" Source="https://raw.githubusercontent.com/LangYueMc/pcl/main/logo.png" />
     </StackPanel>
     <StackPanel Margin="30,105,30,5" Orientation="Horizontal" HorizontalAlignment="Center">
         <local:MyButton Margin="0,0,0,15" Width="160" Height="35" Text="打开根目录" EventType="打开文件" EventData="explorer.exe|..\" />
