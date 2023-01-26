@@ -1,0 +1,27 @@
+﻿<local:MyButton Margin="0,-20,-15,5" Width="15" Height="15" HorizontalAlignment="Right" Text="↻" EventType="刷新主页" />
+
+<local:MyCard Margin="0,0,0,15">
+    <StackPanel Margin="0,25,0,0" >
+        <Image Height="62" Source="http://file.l2w.site/mc/mc.png" />
+    </StackPanel>
+    <StackPanel Margin="30,105,30,5" Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="0,0,0,15" Width="160" Height="35" Text="打开根目录" EventType="打开文件" EventData="explorer.exe|..\" />
+        <local:MyButton Margin="44,0,0,15" Width="160" Height="35" Text="打开版本文件夹" EventType="打开文件" EventData="explorer.exe|..\.minecraft\versions" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Margin="0,0,0,15" Title="WIKI" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="30,45,30,20" Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="16,0,16,0" Width="100" Height="35" Text="中文 WIKI" EventType="打开网页" EventData="https://minecraft-zh.gamepedia.com/" />
+        <local:MyButton Margin="16,0,16,0" Width="100" Height="35" Text="哔哩哔哩" EventType="打开网页" EventData="https://wiki.biligame.com/mc/Minecraft_Wiki" />
+        <local:MyButton Margin="16,0,16,0" Width="100" Height="35" Text="Fandom" EventType="打开网页" EventData="https://minecraft-archive.fandom.com/wiki/Minecraft_Wiki" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Margin="0,0,0,15" Title="MC百科" CanSwap="True" IsSwaped="False">
+    <StackPanel Margin="30,45,30,20" Orientation="Horizontal" HorizontalAlignment="Center">
+        <local:MyButton Margin="16,0,16,0" Width="100" Height="35" Text="首页" EventType="打开网页" EventData="https://www.mcmod.cn/" />
+        <local:MyButton Margin="16,0,16,0" Width="100" Height="35" Text="MOD" EventType="打开网页" EventData="https://www.mcmod.cn/modlist.html" />
+        <local:MyButton Margin="16,0,16,0" Width="100" Height="35" Text="搜索" EventType="打开网页" EventData="https://search.mcmod.cn/" />
+    </StackPanel>
+</local:MyCard>
